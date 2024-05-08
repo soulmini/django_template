@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People List</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <ul>
+        {% for person in peoples %}
+            <li>Name: {{ person.Name }}, Age: {{ person.age }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
